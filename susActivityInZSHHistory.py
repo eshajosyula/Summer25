@@ -22,7 +22,7 @@ def scan_history(): # essentially ctrl + f the keywords in SUS and flags it as s
     return res
 
 def main():
-    print("=== BLUEWATCH: Suspicious Command Scanner ===\n")
+    print("=== suspicious command scanner ===\n")
 
     alerts = scan_history()
 
